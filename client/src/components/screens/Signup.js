@@ -20,9 +20,9 @@ const SignUp  = ()=>{
     const uploadPic = ()=>{
         const data = new FormData()
         data.append("file",image)
-        data.append("upload_preset","voting")
-        data.append("cloud_name","dvfpkko1z")
-        fetch("https://api.cloudinary.com/v1_1/dvfpkko1z/image/upload",{
+        data.append("upload_preset","")
+        data.append("cloud_name","")
+        fetch("https://api.cloudinary.com/v1_1//image/",{
             method:"post",
             body:data
         })
