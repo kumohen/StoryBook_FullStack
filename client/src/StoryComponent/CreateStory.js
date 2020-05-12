@@ -40,9 +40,9 @@ const CreateStory = ()=>{
    const postDetails = ()=>{
        const data = new FormData()
        data.append("file",image)
-       data.append("upload_preset","voting")
-       data.append("cloud_name","dvfpkko1z")
-       fetch("https://api.cloudinary.com/v1_1/dvfpkko1z/image/upload",{
+       data.append("upload_preset","")
+       data.append("cloud_name","")
+       fetch("https://api.cloudinary.com/v1_1//image/upload",{
            method:"post",
            body:data
        })
